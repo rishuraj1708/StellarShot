@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Pick a date to get the NASA picture of the day for that date! Built using NASA API (https://api.nasa.gov/)">
+    	<meta name="keywords" content="picture of the day, nasa, apod, api, StellarShot">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/4fc31833c8.js" crossorigin="anonymous"></script>
+		<title>StellarShot</title>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<h1>StellarShot</h1>
+		<p class="descript">Astronomy Picture of the Day</p>
+		<h2 id="date">Select a Date</h2>
+		<input type="date" name="date" value="" id="dateInput">
+		<button type="button" name="button" id="getPic">Get Picture</button>
+
+		<div class="picture">
+			<h2 id="name">Choose a date to see the NASA Astronomy Picture of the Day</h2>
+			<img src="" alt="fetching picture...">
+			<iframe src="" frameborder="0"></iframe>
+		</div>
+		<div class="description">
+			<h3 id="descHead">Description</h3>
+			<h3 id="desc">
+				Astronomy Picture of the Day is provided by NASA and Michigan Technological University. "Each day a different image or photograph of our universe is featured, along with a brief explanation written by a professional astronomer".
+			</h3>
+		</div>
+		<footer>
+			<a href="https://github.com/rishuraj1708/StellarShot"><i class="fa-brands fa-github"></i></a></i>
+			<a href="https://rishuraj1708-porfolio" id="dev">Created by Rishu Raj</a>
+		</footer>
+		
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
