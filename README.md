@@ -20,7 +20,6 @@
 ## 📸 Screenshot
 
 ![StellarShot Screenshot](screenshot.png)  
-*Add a real screenshot of your site here*
 
 ## 📡 Getting Started
 
